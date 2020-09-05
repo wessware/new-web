@@ -1,0 +1,133 @@
+a {
+    color: black;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 3em;
+    right: 3em;
+    background-color: yellow;
+    color: #313943;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .75);
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    opacity: 0;
+    text-decoration: rgb(0, 0, 0);
+    font-size: .75em;
+}
+#back-to-top:hover {
+    background-color: rgb(84, 150, 209);
+    padding: 1em 3em;
+}
+#back-to-top.visible {
+    opacity: 1;
+}
+/* css control for the upcoming event counter*/
+.counter {
+    position: fixed;
+    left: 3em;
+    background-color: rgb(84, 150, 209);
+    color: black;
+    border:navajowhite;
+    border-radius: 5px;
+    padding: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .25);
+    display: inline-block;
+    opacity: 1;
+    font-size: 2em;
+}
+.box1 {
+    margin-bottom: 20px;
+    padding: 15px 8px;
+    background: #fff;
+    background: rgba(84, 150, 209, 0.9);
+}
+.box2 {
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    background: #fff;
+    background: rgba(71, 71, 71, 0.9);
+}
+
+/*
+the codes beyond this line are for a trial footer  */
+#footer a {
+    color: #666
+}
+#footer a:hover {
+    color: #f7f307;
+}
+
+ul.social {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    display: inline-block
+}
+
+ul.social>li {
+    display: inline-block;
+    margin: 0 5px
+}
+
+ul.social>li>a {
+    font-size: 24px;
+    color: #666
+}
+
+ul.social>li>a:hover {
+    color: #999
+}
+
+.btn-social {
+    border: 0;
+    color: #fff;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.5)
+}
+
+.btn-social.btn-facebook {
+    background: #4f7dd4
+}
+
+.btn-social.btn-facebook:hover {
+    background: #789bde
+}
+
+.btn-social.btn-twitter {
+    background: #5bceff
+}
+
+.btn-social.btn-twitter:hover {
+    background: #8eddff
+}
+
+.btn-social.btn-linkedin {
+    background: #21a6d8
+}
+
+.btn-social.btn-linkedin:hover {
+    background: #49b9e3
+}
+
+.btn-social.btn-google-plus {
+    background: #dc422b
+}
+
+.btn-social.btn-google-plus:hover {
+    background: #e36957
+}
+
+.btn-social:hover {
+    color: #fff
+}
+.pull-right {
+    float: right !important;
+  }
