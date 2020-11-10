@@ -14,7 +14,6 @@ docHeight = Math.max(body.scrollHeight, body.offsetHeight, docElem.clientHeight,
      scrollPos = body.scrollTop || docElem.scrollTop;
      btt.className = (scrollPos > offset) ? "visible": "";
  });
-
  //this code above this line already worked !!
  //add a click event listener
  btt.addEventListener("click", function (event){
@@ -29,7 +28,7 @@ docHeight = Math.max(body.scrollHeight, body.offsetHeight, docElem.clientHeight,
  /* javscript counter to show when the set kenya event will be held in days 
  minutes and seconds */
 //set the date of the event yet to happen
- let countDownDate = new Date("Jan 24, 2021 15:00:00").getTime();
+ let countDownDate = new Date("Oct 24, 2020 15:00:00").getTime();
  //update the count down every one second
  let x = setInterval(function() {
  //get todays date
@@ -46,10 +45,13 @@ docHeight = Math.max(body.scrollHeight, body.offsetHeight, docElem.clientHeight,
  /// if the counter is finished show some text
  if (distance < 0 ) {
      clearInterval(x);
-     document.getElementById("demo").innerHTML = "EXPIRED";
+     document.getElementById("demo").innerHTML = "THE EVENT HAS BEEN POSTPONED DUE TO COVID-19. <br> NEW DATES WILL BE COMMUNICATED!!";
  }
  }, 1000);
 
-
+ ///code for the readmore button for the blog page
+$(".readmore-btn").on('click', () => {
+    $(this).parent().toggleClass("showContent");
+});
 
 
