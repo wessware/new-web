@@ -90,9 +90,13 @@ li i {
     margin:  20px 5px;
     padding: 10px;
     color: #fff;
-    border-radius: 50%;
-    border: 1px solid grey;
+    border-radius: none;
+    
     transition: 0.3s;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
 }
 .social-media i:hover {
     background: rgb(84, 150, 209);

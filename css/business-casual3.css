@@ -1,13 +1,21 @@
+@import url(./font.css);
 
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/new logo.png') no-repeat center center fixed;
+    font-family: var(--Livvic);
+    background: url('../img/bg3.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
+/* the new set kenya fonts 2021 */
+:root {
+--Abel: 'Abel', cursive;
+--Anton: 'Anton', cursive;
+--Josefin: 'Josefin', cursive;
+--Lexend: 'Lexend', cursive;
+--Livvic: 'Livvic', cursive;
+}
 h1,
 h2,
 h3,
@@ -15,7 +23,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: var(--Livvic);
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -76,7 +84,7 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(13, 14, 13, 0.9);
 }
 
 .intro-text {
@@ -114,7 +122,7 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: var(--Abel);
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
