@@ -28,7 +28,7 @@ docHeight = Math.max(body.scrollHeight, body.offsetHeight, docElem.clientHeight,
  /* javscript counter to show when the set kenya event will be held in days 
  minutes and seconds */
 //set the date of the event yet to happen
- let countDownDate = new Date("Apr 11, 2021 15:00:00").getTime();
+ let countDownDate = new Date("Aug 1, 2021 15:00:00").getTime();
  //update the count down every one second
  let x = setInterval(function() {
  //get todays date
